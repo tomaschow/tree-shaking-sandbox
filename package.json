@@ -1,0 +1,17 @@
+{
+  "name": "tree-shaking-sandbox",
+  "version": "0.0.1",
+  "description": "A sandbox for treeshaking practice",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf dist && rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tanaka Tomi",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-json": "^6.0.0",
+    "rimraf": "^4.4.0",
+    "rollup": "^3.19.1"
+  }
+}
